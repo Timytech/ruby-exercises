@@ -35,10 +35,10 @@ end
 
 def even?(number)
   # return true if the number is even (hint: use integer's even? method)
-  number % 2 == 0
+  number.even?
 end
 
 def odd?(number)
   # return true if the number is odd (hint: use integer's odd? method)
-  number % 2 == 1
+  number.odd?
 end
